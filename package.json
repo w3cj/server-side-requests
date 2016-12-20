@@ -1,0 +1,20 @@
+{
+  "name": "server-side-requests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server client & nodemon server/index.js & open http://localhost:8080"
+  },
+  "keywords": [],
+  "author": "w3cj <hello@cjr.co.de>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express-zero-config": "^1.1.1",
+    "http-server": "^0.9.0",
+    "node-fetch": "^1.6.3",
+    "request": "^2.79.0"
+  }
+}
