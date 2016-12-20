@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server client & nodemon server/index.js & open http://localhost:8080"
+    "start": "npm run start-server & npm run start-client & wait",
+    "start-server": "nodemon server/index.js",
+    "start-client": "http-server client & open http://localhost:8080"
   },
   "keywords": [],
   "author": "w3cj <hello@cjr.co.de>",

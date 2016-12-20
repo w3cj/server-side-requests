@@ -3,6 +3,10 @@ require('dotenv').config();
 
 const GOOGLE_API_URL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=39.7579125,-105.0068599&radius=10000';
 
+if(process.env.GOOGLE_API_KEY == 'api_key_here') {
+	console.error('You must specify an API key in .env!');
+}
+
 function getPlaces(type) {
 	console.log('type', type);
 	let URL = GOOGLE_API_URL;
