@@ -8,6 +8,9 @@ yarn
 npm install
 ```
 
+### Add Your API Key
+* Get a maps API key [from google](https://developers.google.com/places/web-service/) and update the `.env` file.
+
 ### Start the servers
 
 ```sh
